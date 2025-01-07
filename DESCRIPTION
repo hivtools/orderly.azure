@@ -1,0 +1,19 @@
+Package: orderly.azure
+Title: Orderly2 remote backed by an Azure file share
+Version: 0.0.1
+Authors@R: 
+    person("Robert", "Ashton", , "rashton@avenirhealth.org", role = c("aut", "cre"))
+Description: Orderly2 remote running on Azure file share.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    AzureStor,
+    jsonlite,
+    withr
+Suggests: 
+    testthat (>= 3.0.0),
+    mockery,
+    orderly2 (>= 1.99.60)
+Config/testthat/edition: 3
