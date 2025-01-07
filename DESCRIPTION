@@ -19,4 +19,6 @@ Imports:
 Suggests: 
     testthat (>= 3.0.0),
     mockery
+Remotes:
+    mrc-ide/orderly2
 Config/testthat/edition: 3
